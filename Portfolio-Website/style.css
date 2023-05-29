@@ -49,7 +49,7 @@
   }
   
 
-.servicesText.card {
+.servicesText {
     height: 280px;
     cursor: pointer;
 }
@@ -60,20 +60,9 @@
     width: 100%;
 }
 
-.card-title {
-    text-align: center;
-}
 
-.card:hover .servicesIcon {
-    transition: 0.9s ;
 
-    color: #008000;
-}
-.card:hover  {
-    border: 1px solid #008000;
-    transition: 0.9s ;
 
-}
 /*Anasayfa butonlar*/
 .btn.btn-dark.btn-lg{
     transition: 0.4s;
@@ -105,11 +94,7 @@
 }
 
 /*Projeler*/
-.card-img {
-    
-    width: 50% !important;
-    height: auto;
-}
+
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
@@ -149,4 +134,23 @@
 
 .ct{
     margin-top: 0rem;
+}
+#st{
+   align-items: center;
+}
+/*Sertifika*/
+#section5{
+    background-color: #eee;
+}
+.card{
+   padding: 0;
+   margin-bottom:2vh ;
+   border: none;
+   border-radius: 10px;
+   transition: 0.2s;
+
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.459);
+    border: none;
 }
