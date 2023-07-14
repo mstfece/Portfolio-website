@@ -55,10 +55,7 @@
 
                 </ul>
             </div>
-            <label class="switch">
-                <input type="checkbox"  id="language-button" checked>
-                <span id="EN" class="slider round"> <p>TR</p></span>
-            </label>
+            <a href="index_en.html">TR</a>
         </div>
     </nav>
     <!-- Main banner -->
@@ -69,7 +66,7 @@
                     <h1 class="hero_title-en">Welcome, I'm Mustafa</h1>
                     <p class="hero_desc">I am a Web Developer. This website contains my skills and projects. </p>
                     <div class="Down-button">
-                        <a type="button" href="Mustafa ECE CV.pdf" class="btn btn-dark btn-lg ">Download CV</a>
+                        <a type="button" href="MECE.pdf" class="btn btn-dark btn-lg ">Download CV</a>
                     </div>
                     <div class="container">
                         <div class="row">
@@ -822,7 +819,7 @@
     </footer>
 
     <script src="script/script.js"></script>
-    <script>
+   <!-- <script>
         // Checkbox elementini seç
         var languageButton = document.getElementById("language-button");
 
@@ -831,17 +828,17 @@
             // Checkbox seçiliyse, İngilizce versiyona yönlendir
             if (this.checked) {
                 var currentUrl = window.location.href; // Şu anki sayfanın URL'sini al
-                var newUrl = currentUrl.replace(".html", "_en.html"); // URL'deki .html kısmını _en.html ile değiştir
+                var newUrl = currentUrl.replace("https://mstfecedev-en.netlify.app/", "https://mstfecedev.netlify.app/"); // URL'deki .html kısmını _en.html ile değiştir
                 window.location.href = newUrl; // Yeni URL'ye git
             }
             // Checkbox seçili değilse, Türkçe versiyona yönlendir
             else {
                 var currentUrl = window.location.href; // Şu anki sayfanın URL'sini al
-                var newUrl = currentUrl.replace("_en", ""); // URL'deki _en kısmını sil
+                var newUrl = currentUrl.replace("-en", ""); // URL'deki _en kısmını sil
                 window.location.href = newUrl; // Yeni URL'ye git
             }
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
